@@ -1,0 +1,4 @@
+2023-05-29 11:49:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "CLIENT" не найдена
+Table "CLIENT" not found; SQL statement:
+insert into client (id, client_name) values (default, ?) [42102-214]
